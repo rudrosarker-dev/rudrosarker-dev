@@ -1,16 +1,50 @@
-## Hi there 👋
+<h1 align="center">Hi there, I'm Rudro Sarker 👋</h1>
+<h3 align="center">Computer Science Student & Web Developer</h3>
 
-<!--
-**rudrosarker-dev/rudrosarker-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Welcome to my GitHub profile! I am a passionate learner and developer who loves building things for the web and solving complex problems with clean, efficient code. 
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🙋‍♂️ About Me
+
+I am a Computer Science student with a strong focus on building responsive and interactive web applications. I am always exploring new frameworks and methodologies to improve my development workflow and deliver great user experiences.
+
+*   🔭 I’m currently working on **personal web development projects**
+*   🌱 I’m currently diving deep into **Modern Web Technologies**
+*   🎓 Studying Computer Science and continuously expanding my technical horizons
+*   💡 I love turning ideas into reality through code!
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+Here are the tools and languages I work with to bring my projects to life:
+
+<p align="left">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+
+<p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=rudro-sarker&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" /> </p>
+
+
+---
+
+## 📫 Let's Connect!
+
+I am always open to collaborating on interesting projects or just having a chat about tech. Feel free to reach out to me!
+
+*   **Email:** [rudrosarker309@gmail.com](mailto:rudrosarker309@gmail.com)
+
+<br/>
+<p align="center">⭐️ <i>Thanks for visiting my profile!</i></p>
