@@ -44,7 +44,7 @@ Here are the technologies I am currently learning and exploring step-by-step:
 
 I am always open to collaborating on interesting projects or just having a chat about tech. Feel free to reach out to me!
 
-*   **Email:** [rudrosarker309@gmail.com](mailto:rudrosarker309@gmail.com)
+*   **Email:** [rudrosarker.dev@gmail.com](mailto:rudrosarker.dev@gmail.com)
 
 <br/>
 <p align="center">⭐️ <i>Thanks for visiting my profile!</i></p>
