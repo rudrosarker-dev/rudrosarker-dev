@@ -18,40 +18,40 @@
   <line x1="160" y1="122" x2="760" y2="122" stroke="#27272a" stroke-width="4"/>
   <line x1="160" y1="122" x2="760" y2="122" stroke="#eab308" stroke-width="2" class="flow-line"/>
 
-  <g transform="translate(28, 58)">
-    <rect x="0" y="7" width="196" height="120" rx="12" fill="#050507" stroke="#27272a"/>
-    <rect x="0" y="0" width="196" height="120" rx="12" fill="#16171d" stroke="#3f3f46" stroke-width="1.2"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#eab308">Step 1</text>
-    <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Plan &amp; UI Layout</text>
-    <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Mapping out the pages,</text>
-    <text x="18" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">design, and user flow</text>
-  </g>
+  
+    <rect x="28" y="65" width="196" height="120" rx="12" fill="#050507" stroke="#27272a"/>
+    <rect x="28" y="58" width="196" height="120" rx="12" fill="#16171d" stroke="#52525b" stroke-width="1.2"/>
+    <line x1="40" y1="59" x2="212" y2="59" stroke="#d4af37" stroke-width="1.5"/>
+    <text x="46" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#eab308">Step 1</text>
+    <text x="46" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Plan &amp; UI Layout</text>
+    <text x="46" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Mapping out the pages,</text>
+    <text x="46" y="153" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">design, and user flow</text>
 
-  <g transform="translate(249, 58)">
-    <rect x="0" y="7" width="196" height="120" rx="12" fill="#050507" stroke="#27272a"/>
-    <rect x="0" y="0" width="196" height="120" rx="12" fill="#16171d" stroke="#3f3f46" stroke-width="1.2"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#d4d4d8">Step 2</text>
-    <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Code with AI &amp; TS</text>
-    <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Building fast with React,</text>
-    <text x="18" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Next.js, and AI tools</text>
-  </g>
+  
+    <rect x="249" y="65" width="196" height="120" rx="12" fill="#050507" stroke="#27272a"/>
+    <rect x="249" y="58" width="196" height="120" rx="12" fill="#16171d" stroke="#3f3f46" stroke-width="1.2"/>
+    
+    <text x="267" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#d4d4d8">Step 2</text>
+    <text x="267" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Code with AI &amp; TS</text>
+    <text x="267" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Building fast with React,</text>
+    <text x="267" y="153" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Next.js, and AI tools</text>
 
-  <g transform="translate(470, 58)">
-    <rect x="0" y="7" width="196" height="120" rx="12" fill="#050507" stroke="#27272a"/>
-    <rect x="0" y="0" width="196" height="120" rx="12" fill="#16171d" stroke="#3f3f46" stroke-width="1.2"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#d4d4d8">Step 3</text>
-    <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Database &amp; APIs</text>
-    <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Connecting Neon Postgres,</text>
-    <text x="18" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">auth, and AI features</text>
-  </g>
+  
+    <rect x="470" y="65" width="196" height="120" rx="12" fill="#050507" stroke="#27272a"/>
+    <rect x="470" y="58" width="196" height="120" rx="12" fill="#16171d" stroke="#3f3f46" stroke-width="1.2"/>
+    
+    <text x="488" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#d4d4d8">Step 3</text>
+    <text x="488" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Database &amp; APIs</text>
+    <text x="488" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Connecting Neon Postgres,</text>
+    <text x="488" y="153" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">auth, and AI features</text>
 
-  <g transform="translate(691, 58)">
-    <rect x="0" y="7" width="199" height="120" rx="12" fill="#050507" stroke="#27272a"/>
-    <rect x="0" y="0" width="199" height="120" rx="12" fill="#16171d" stroke="#52525b" stroke-width="1.2"/>
-    <line x1="12" y1="1" x2="187" y2="1" stroke="#d4af37" stroke-width="1.5"/>
-    <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#eab308">Step 4</text>
-    <text x="18" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Ship &amp; Go Live</text>
-    <text x="18" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Testing and deploying</text>
-    <text x="18" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">live to the web</text>
-  </g>
+  
+    <rect x="691" y="65" width="199" height="120" rx="12" fill="#050507" stroke="#27272a"/>
+    <rect x="691" y="58" width="199" height="120" rx="12" fill="#16171d" stroke="#52525b" stroke-width="1.2"/>
+    <line x1="703" y1="59" x2="878" y2="59" stroke="#d4af37" stroke-width="1.5"/>
+    <text x="709" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#eab308">Step 4</text>
+    <text x="709" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="800" fill="#fafafa">Ship &amp; Go Live</text>
+    <text x="709" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">Testing and deploying</text>
+    <text x="709" y="153" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#a1a1aa">live to the web</text>
+
 </svg>

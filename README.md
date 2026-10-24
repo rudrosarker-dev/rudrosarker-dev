@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero-3d.svg" width="100%" alt="Hi, I'm Rudro Sarker" />
+<img src="./hero-3d.svg?v=5" width="100%" alt="Hi, I'm Rudro Sarker" />
 
 <br/><br/>
 
@@ -22,7 +22,7 @@
 <summary><b>👋 What I Do</b></summary>
 <br/>
 <div align="center">
-  <img src="./bento-domains-3d.svg" width="100%" alt="What I Do" />
+  <img src="./bento-domains-3d.svg?v=5" width="100%" alt="What I Do" />
 </div>
 </details>
 
@@ -32,7 +32,7 @@
 <summary><b>🛠️ Tech Stack & Tools</b></summary>
 <br/>
 <div align="center">
-  <img src="./tech-stack-3d.svg" width="100%" alt="Tech Stack & Tools" />
+  <img src="./tech-stack-3d.svg?v=5" width="100%" alt="Tech Stack & Tools" />
   <br/><br/>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,py,postgres,prisma,git,github,vercel,vscode&perline=13&theme=dark" alt="Tech Icons" />
@@ -46,7 +46,7 @@
 <summary><b>⚡ How I Build Projects</b></summary>
 <br/>
 <div align="center">
-  <img src="./workflow-3d.svg" width="100%" alt="How I Build Projects" />
+  <img src="./workflow-3d.svg?v=5" width="100%" alt="How I Build Projects" />
 </div>
 </details>
 
@@ -78,5 +78,5 @@ If you want to build a website, online store, or web app, feel free to reach out
 <br/>
 
 <div align="center">
-  <img src="./footer-3d.svg" width="100%" alt="Footer" />
+  <img src="./footer-3d.svg?v=5" width="100%" alt="Footer" />
 </div>

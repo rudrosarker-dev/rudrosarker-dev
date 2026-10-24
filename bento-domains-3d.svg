@@ -25,87 +25,73 @@
       }
     </style>
   </defs>
-
   <rect width="920" height="350" rx="16" fill="#09090b"/>
-
-  <!-- CARD 1: WEBSITES & WEB APPS -->
-  <g transform="translate(12, 10)">
-    <rect x="0" y="8" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
-    <rect x="0" y="0" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
-    <line x1="20" y1="0" x2="260" y2="0" stroke="url(#goldEdge)" stroke-width="2"/>
-
-    <!-- Outer <g> holds position (24, 24), inner <g> animates smoothly -->
-    <g transform="translate(24, 22)">
-      <g class="icon-float-1">
-        <polygon points="26,0 52,13 26,26 0,13" fill="url(#goldTop)"/>
-        <polygon points="0,13 26,26 26,50 0,37" fill="#854d0e"/>
-        <polygon points="52,13 26,26 26,50 52,37" fill="#a16207"/>
-      </g>
-    </g>
-
-    <text x="94" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">Websites &amp; Web Apps</text>
-    <text x="94" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#eab308">Fast, modern &amp; mobile-friendly</text>
-    <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I build clean, responsive websites and full-stack web apps</text>
-    <text x="24" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">using TypeScript, React, Next.js, and Tailwind CSS.</text>
+  
+  <!-- Card at (12, 10) -->
+  <rect x="12" y="18" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
+  <rect x="12" y="10" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
+  <line x1="32" y1="10" x2="272" y2="10" stroke="url(#goldEdge)" stroke-width="2"/>
+  <g class="icon-float-1">
+    
+      <polygon points="62,33.0 88,46 62,59.0 36,46" fill="url(#goldTop)"/>
+      <polygon points="36,46 62,59.0 62,83.0 36,70" fill="#854d0e"/>
+      <polygon points="88,46 62,59.0 62,83.0 88,70" fill="#a16207"/>
+    
   </g>
+  <text x="106" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">Websites &amp; Web Apps</text>
+  <text x="106" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#eab308">Fast, modern &amp; mobile-friendly</text>
+  <text x="36" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I build clean, responsive websites and full-stack web apps</text>
+  <text x="36" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">using TypeScript, React, Next.js, and Tailwind CSS.</text>
 
-  <!-- CARD 2: E-COMMERCE & ONLINE STORES -->
-  <g transform="translate(468, 10)">
-    <rect x="0" y="8" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
-    <rect x="0" y="0" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
-    <line x1="20" y1="0" x2="260" y2="0" stroke="url(#platEdge)" stroke-width="2"/>
-
-    <g transform="translate(24, 22)">
-      <g class="icon-float-2">
-        <polygon points="26,0 52,13 26,26 0,13" fill="#e4e4e7"/>
-        <polygon points="0,13 26,26 26,50 0,37" fill="#52525b"/>
-        <polygon points="52,13 26,26 26,50 52,37" fill="#71717a"/>
-      </g>
-    </g>
-
-    <text x="94" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">Online Stores &amp; Platforms</text>
-    <text x="94" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#d4d4d8">Complete e-commerce &amp; custom portals</text>
-    <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">From product pages and shopping carts to admin panels,</text>
-    <text x="24" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I create custom online shops and digital platforms.</text>
+  
+  <!-- Card at (468, 10) -->
+  <rect x="468" y="18" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
+  <rect x="468" y="10" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
+  <line x1="488" y1="10" x2="728" y2="10" stroke="url(#platEdge)" stroke-width="2"/>
+  <g class="icon-float-2">
+    
+      <polygon points="518,33.0 544,46 518,59.0 492,46" fill="#e4e4e7"/>
+      <polygon points="492,46 518,59.0 518,83.0 492,70" fill="#52525b"/>
+      <polygon points="544,46 518,59.0 518,83.0 544,70" fill="#71717a"/>
+    
   </g>
+  <text x="562" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">Online Stores &amp; Platforms</text>
+  <text x="562" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#d4d4d8">Complete e-commerce &amp; custom portals</text>
+  <text x="492" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">From product pages and shopping carts to admin panels,</text>
+  <text x="492" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I create custom online shops and digital platforms.</text>
 
-  <!-- CARD 3: AI APPS & TOOLS -->
-  <g transform="translate(12, 182)">
-    <rect x="0" y="8" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
-    <rect x="0" y="0" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
-    <line x1="20" y1="0" x2="260" y2="0" stroke="url(#platEdge)" stroke-width="2"/>
-
-    <g transform="translate(24, 22)">
-      <g class="icon-float-2">
-        <polygon points="26,0 52,13 26,26 0,13" fill="#e4e4e7"/>
-        <polygon points="0,13 26,26 26,50 0,37" fill="#52525b"/>
-        <polygon points="52,13 26,26 26,50 52,37" fill="#71717a"/>
-      </g>
-    </g>
-
-    <text x="94" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">AI-Powered Apps &amp; Agents</text>
-    <text x="94" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#d4d4d8">Smart features built into the web</text>
-    <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I use AI tools and APIs (like Google Gemini) to build</text>
-    <text x="24" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">smart web apps, custom AI agents, and automated tools.</text>
+  
+  <!-- Card at (12, 182) -->
+  <rect x="12" y="190" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
+  <rect x="12" y="182" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
+  <line x1="32" y1="182" x2="272" y2="182" stroke="url(#platEdge)" stroke-width="2"/>
+  <g class="icon-float-2">
+    
+      <polygon points="62,205.0 88,218 62,231.0 36,218" fill="#e4e4e7"/>
+      <polygon points="36,218 62,231.0 62,255.0 36,242" fill="#52525b"/>
+      <polygon points="88,218 62,231.0 62,255.0 88,242" fill="#71717a"/>
+    
   </g>
+  <text x="106" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">AI-Powered Apps &amp; Agents</text>
+  <text x="106" y="246" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#d4d4d8">Smart features built into the web</text>
+  <text x="36" y="286" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I use AI tools and APIs (like Google Gemini) to build</text>
+  <text x="36" y="308" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">smart web apps, custom AI agents, and automated tools.</text>
 
-  <!-- CARD 4: PRIVATE REPOSITORIES -->
-  <g transform="translate(468, 182)">
-    <rect x="0" y="8" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
-    <rect x="0" y="0" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
-    <line x1="20" y1="0" x2="260" y2="0" stroke="url(#goldEdge)" stroke-width="2"/>
-
-    <g transform="translate(24, 22)">
-      <g class="icon-float-1">
-        <polygon points="26,0 52,13 26,26 0,13" fill="url(#goldTop)"/>
-        <polygon points="0,13 26,26 26,50 0,37" fill="#854d0e"/>
-        <polygon points="52,13 26,26 26,50 52,37" fill="#a16207"/>
-      </g>
-    </g>
-
-    <text x="94" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">Why My Projects Are Private</text>
-    <text x="94" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#eab308">Keeping code &amp; ideas safe</text>
-    <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I keep my main web apps and client projects in private</text>
-    <text x="24" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">repositories so the source code stays secure.</text>
+  
+  <!-- Card at (468, 182) -->
+  <rect x="468" y="190" width="440" height="152" rx="14" fill="#040406" stroke="#27272a" stroke-width="1"/>
+  <rect x="468" y="182" width="440" height="152" rx="14" fill="url(#cardSurface)" stroke="#2e2e36" stroke-width="1.2"/>
+  <line x1="488" y1="182" x2="728" y2="182" stroke="url(#goldEdge)" stroke-width="2"/>
+  <g class="icon-float-1">
+    
+      <polygon points="518,205.0 544,218 518,231.0 492,218" fill="url(#goldTop)"/>
+      <polygon points="492,218 518,231.0 518,255.0 492,242" fill="#854d0e"/>
+      <polygon points="544,218 518,231.0 518,255.0 544,242" fill="#a16207"/>
+    
   </g>
+  <text x="562" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800" fill="#fafafa">Why My Projects Are Private</text>
+  <text x="562" y="246" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#eab308">Keeping code &amp; ideas safe</text>
+  <text x="492" y="286" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">I keep my main web apps and client projects in private</text>
+  <text x="492" y="308" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#a1a1aa">repositories so the source code stays secure.</text>
+
 </svg>
