@@ -1,50 +1,10 @@
-<h1 align="center">Hi there, I'm Rudro Sarker 👋</h1>
-<h3 align="center">Computer Science Student & Web Developer</h3>
+<div align="center">Hi there, I'm Rudro Sarker 👋AI-First Web & App Developer | Building Full-Stack Products with TypeScript & AII build modern websites, web applications, e-commerce platforms, and custom AI agents using AI-assisted development workflows. My focus is on shipping fast, clean, and functional digital products from idea to deployment.LinkedIn
 
-<p align="center">
-  Welcome to my GitHub profile! I am a passionate learner and developer who loves building things for the web and solving complex problems with clean, efficient code. 
-</p>
-
----
-
-## 🙋‍♂️ About Me
-
-I am a Computer Science student with a strong focus on building responsive and interactive web applications. I am always exploring new frameworks and methodologies to improve my development workflow and deliver great user experiences.
-
-*   🔭 I’m currently working on **personal web development projects**
-*   🌱 I’m currently diving deep into **Modern Web Technologies**
-*   🎓 Studying Computer Science and continuously expanding my technical horizons
-*   💡 I love turning ideas into reality through code!
-
----
-
-## 🛠️ Currently Learning & Tech Stack
-
-Here are the technologies I am currently learning and exploring step-by-step:
-
-<p align="left">
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
-
----
-
-## 📊 GitHub Stats
-
-
-<p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=rudro-sarker&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" /> </p>
-
-
----
-
-## 📫 Let's Connect!
-
-I am always open to collaborating on interesting projects or just having a chat about tech. Feel free to reach out to me!
-
-*   **Email:** [rudrosarker.dev@gmail.com](mailto:rudrosarker.dev@gmail.com)
-
-<br/>
-<p align="center">⭐️ <i>Thanks for visiting my profile!</i></p>
+</div>👨‍💻 What I Do🚀 AI-Powered Development: I use modern AI coding tools, LLMs, and prompt engineering to architect, write, and ship full-stack web applications and mobile-ready platforms rapidly.🛒 Websites & E-Commerce: Building responsive storefronts, digital book platforms, and custom business websites (currently working on projects like Nova-Shop, TholvexShop, Fusion-Realm, and E-Book).🤖 AI Agents & Automation: Developing smart web workflows and custom agents like tholvexagent that integrate AI APIs directly into user-facing products.⚡ End-to-End Execution: From UI/UX layout and frontend interactivity in TypeScript/React to serverless databases (Neon/PostgreSQL) and live deployment.🛠️ Tech Stack & ToolsLanguages & FrontendBackend, Database & DeploymentAI & Workflow Tools📂 Featured ProjectsProjectStackFocusFusion-RealmTypeScriptInteractive web application built with modern TypeScript architectureNova-Shop & TholvexShopTypeScriptModern e-commerce web storefronts with responsive product catalogs and cart flowstholvexagentTypeScriptCustom AI agent and automated workflow applicationE-Book PlatformTypeScriptDigital reading and e-book publishing web application📊 GitHub Activity & Stats<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=rudrosarker-dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Rudro's GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rudrosarker-dev&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
+</div><div align="center">
+<img src="https://streak-stats.demolab.com?user=rudrosarker-dev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div><div align="center">
+<b>Have a project in mind or want to build a website/app? Reach out at <a href="mailto:rudrosarker.dev@gmail.com">rudrosarker.dev@gmail.com</a></b>
+</div>
