@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 350" width="100%" height="350">
+  <defs>
+    <linearGradient id="obsidianBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="55%" stop-color="#101115"/>
+      <stop offset="100%" stop-color="#16171d"/>
+    </linearGradient>
+
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#27272a" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#d4af37" stop-opacity="0.85"/>
+      <stop offset="65%" stop-color="#f59e0b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#27272a" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="platinumText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e4e4e7"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
+    </linearGradient>
+
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <linearGradient id="isoTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272f"/>
+      <stop offset="100%" stop-color="#18181c"/>
+    </linearGradient>
+
+    <linearGradient id="isoLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#18181c"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+
+    <linearGradient id="isoRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#222228"/>
+      <stop offset="100%" stop-color="#0e0e11"/>
+    </linearGradient>
+
+    <linearGradient id="goldCubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+
+    <linearGradient id="goldCubeLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#713f12"/>
+    </linearGradient>
+
+    <linearGradient id="goldCubeRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+
+    <radialGradient id="ambientGlow" cx="75%" cy="48%" r="42%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#78350f" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#09090b" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+
+    <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <pattern id="archGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+
+    <style>
+      .layer-base { animation: hoverBase 6s ease-in-out infinite; }
+      .layer-mid  { animation: hoverMid 5s ease-in-out infinite; }
+      .layer-top  { animation: hoverTop 4s ease-in-out infinite; }
+      .orbit-1    { animation: pulseOrbit 5.5s ease-in-out infinite; transform-origin: 705px 175px; }
+      .sat-left   { animation: satFloatL 4.5s ease-in-out infinite; }
+      .sat-right  { animation: satFloatR 3.8s ease-in-out infinite; }
+      .pulse-dot  { animation: pulseDot 2.2s ease-in-out infinite; }
+      .beam-line  { stroke-dasharray: 8 6; animation: dashFlow 3s linear infinite; }
+
+      @keyframes hoverBase {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes hoverMid {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-13px); }
+      }
+      @keyframes hoverTop {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-21px); }
+      }
+      @keyframes satFloatL {
+        0%, 100% { transform: translate(0px, 0px); }
+        50% { transform: translate(-5px, -12px); }
+      }
+      @keyframes satFloatR {
+        0%, 100% { transform: translate(0px, 0px); }
+        50% { transform: translate(5px, -14px); }
+      }
+      @keyframes pulseOrbit {
+        0%, 100% { opacity: 0.35; transform: scale(0.98); }
+        50% { opacity: 0.85; transform: scale(1.03); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -28; }
+      }
+    </style>
+  </defs>
+
+  <!-- Main Card Frame -->
+  <rect x="2" y="2" width="916" height="346" rx="18" fill="url(#obsidianBg)" stroke="#27272a" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="346" rx="18" fill="url(#archGrid)"/>
+  <rect x="2" y="2" width="916" height="346" rx="18" fill="url(#ambientGlow)"/>
+
+  <!-- Top Metallic Specular Rim Highlight -->
+  <line x1="60" y1="2" x2="860" y2="2" stroke="url(#goldRim)" stroke-width="2"/>
+
+  <!-- ================= LEFT COLUMN: EXECUTIVE TYPOGRAPHY ================= -->
+  <g transform="translate(46, 44)">
+    <!-- Status Pill (3D Beveled) -->
+    <rect x="0" y="2" width="320" height="30" rx="15" fill="#09090b"/>
+    <rect x="0" y="0" width="320" height="30" rx="15" fill="#18181b" stroke="#3f3f46" stroke-width="1"/>
+    <circle cx="18" cy="15" r="4.5" fill="#10b981" class="pulse-dot"/>
+    <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="700" fill="#d4d4d8" letter-spacing="1.2">AVAILABLE FOR PROJECTS • RAJSHAHI, BD</text>
+
+    <!-- 3D Extruded Main Name -->
+    <text x="2" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="44" font-weight="800" fill="#000000" letter-spacing="1.5">RUDRO SARKER</text>
+    <text x="0" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="44" font-weight="800" fill="url(#platinumText)" letter-spacing="1.5">RUDRO SARKER</text>
+
+    <!-- Gold Role Subtitle -->
+    <text x="0" y="116" font-family="'SF Mono', 'JetBrains Mono', Consolas, monospace" font-size="14.5" font-weight="700" fill="#eab308" letter-spacing="0.6">
+      AI-FIRST WEB &amp; APP ENGINEER  //  FULL-STACK BUILDER
+    </text>
+
+    <!-- Clean Executive Summary -->
+    <text x="0" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="14" fill="#a1a1aa">
+      Architecting production-grade web applications, digital commerce
+    </text>
+    <text x="0" y="169" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="14" fill="#a1a1aa">
+      platforms, and intelligent AI workflows with TypeScript &amp; modern cloud.
+    </text>
+
+    <!-- 3D Tactile Extruded Keycap Badges -->
+    <g transform="translate(0, 198)">
+      <!-- Keycap 1 -->
+      <rect x="0" y="5" width="128" height="36" rx="8" fill="#09090b" stroke="#27272a" stroke-width="1"/>
+      <rect x="0" y="0" width="128" height="36" rx="8" fill="#18181c" stroke="#52525b" stroke-width="1"/>
+      <line x1="8" y1="1" x2="120" y2="1" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="16" y="23" font-family="'SF Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#f4f4f5">TS 98.1% Core</text>
+
+      <!-- Keycap 2 -->
+      <rect x="140" y="5" width="136" height="36" rx="8" fill="#09090b" stroke="#27272a" stroke-width="1"/>
+      <rect x="140" y="0" width="136" height="36" rx="8" fill="#18181c" stroke="#52525b" stroke-width="1"/>
+      <line x1="148" y1="1" x2="268" y2="1" stroke="#a1a1aa" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="155" y="23" font-family="'SF Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#e4e4e7">Next.js • React</text>
+
+      <!-- Keycap 3 -->
+      <rect x="288" y="5" width="136" height="36" rx="8" fill="#09090b" stroke="#27272a" stroke-width="1"/>
+      <rect x="288" y="0" width="136" height="36" rx="8" fill="#18181c" stroke="#52525b" stroke-width="1"/>
+      <line x1="296" y1="1" x2="416" y2="1" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="303" y="23" font-family="'SF Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#fde68a">AI Architecture</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: TRUE 3D ISOMETRIC MONOLITH SCENE ================= -->
+  <!-- Orbital Precision Rings -->
+  <g class="orbit-1">
+    <ellipse cx="705" cy="195" rx="155" ry="68" fill="none" stroke="#3f3f46" stroke-width="1" stroke-dasharray="6 6"/>
+    <ellipse cx="705" cy="195" rx="122" ry="52" fill="none" stroke="url(#goldRim)" stroke-width="1.5"/>
+  </g>
+
+  <!-- LAYER 1: 3D Isometric Titanium Pedestal Base -->
+  <g class="layer-base" filter="url(#softShadow)">
+    <!-- Top Diamond Face -->
+    <polygon points="705,165 835,230 705,295 575,230" fill="url(#isoTop)" stroke="#52525b" stroke-width="1.2"/>
+    <!-- Inner Gold Circuit Frame on Pedestal -->
+    <polygon points="705,177 811,230 705,283 599,230" fill="none" stroke="#d4af37" stroke-width="1" stroke-opacity="0.55" class="beam-line"/>
+    <!-- Left Extruded Side -->
+    <polygon points="575,230 705,295 705,317 575,252" fill="url(#isoLeft)" stroke="#27272a" stroke-width="1"/>
+    <!-- Right Extruded Side -->
+    <polygon points="835,230 705,295 705,317 835,252" fill="url(#isoRight)" stroke="#3f3f46" stroke-width="1"/>
+  </g>
+
+  <!-- LAYER 2: Floating 3D Glassmorphic App Platform Deck -->
+  <g class="layer-mid" filter="url(#softShadow)">
+    <!-- Deck Top Face -->
+    <polygon points="705,118 805,168 705,218 605,168" fill="#18181c" fill-opacity="0.92" stroke="#a1a1aa" stroke-width="1.2"/>
+    <!-- Deck Left Face -->
+    <polygon points="605,168 705,218 705,234 605,184" fill="#0f0f12" stroke="#3f3f46" stroke-width="1"/>
+    <!-- Deck Right Face -->
+    <polygon points="805,168 705,218 705,234 805,184" fill="#27272f" stroke="#52525b" stroke-width="1"/>
+    <!-- Isometric UI Grid Lines on Deck -->
+    <polygon points="705,130 780,168 705,206 630,168" fill="#09090b" stroke="#d4af37" stroke-width="0.9" stroke-opacity="0.6"/>
+    <line x1="668" y1="149" x2="742" y2="187" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="742" y1="149" x2="668" y2="187" stroke="#3f3f46" stroke-width="1"/>
+  </g>
+
+  <!-- LAYER 3: Levitating 3D Champagne Gold & Obsidian AI Core Cube -->
+  <g class="layer-top" filter="url(#softShadow)">
+    <!-- Top Face -->
+    <polygon points="705,52 757,78 705,104 653,78" fill="url(#goldCubeTop)" stroke="#fef9c3" stroke-width="1.3"/>
+    <!-- Left Face -->
+    <polygon points="653,78 705,104 705,162 653,136" fill="url(#goldCubeLeft)" stroke="#ca8a04" stroke-width="1.2"/>
+    <!-- Right Face -->
+    <polygon points="757,78 705,104 705,162 757,136" fill="url(#goldCubeRight)" stroke="#fde047" stroke-width="1.2"/>
+    <!-- Inner Core Cutout -->
+    <polygon points="705,64 735,78 705,92 675,78" fill="#09090b" stroke="#fde047" stroke-width="0.8"/>
+  </g>
+
+  <!-- Floating Satellite 3D Node Left -->
+  <g class="sat-left" filter="url(#softShadow)">
+    <polygon points="565,112 593,126 565,140 537,126" fill="#27272f" stroke="#d4af37" stroke-width="1"/>
+    <polygon points="537,126 565,140 565,170 537,156" fill="#141418" stroke="#3f3f46" stroke-width="1"/>
+    <polygon points="593,126 565,140 565,170 593,156" fill="#1f1f26" stroke="#52525b" stroke-width="1"/>
+  </g>
+
+  <!-- Floating Satellite 3D Node Right -->
+  <g class="sat-right" filter="url(#softShadow)">
+    <polygon points="835,96 863,110 835,124 807,110" fill="#27272f" stroke="#e4e4e7" stroke-width="1"/>
+    <polygon points="807,110 835,124 835,154 807,140" fill="#141418" stroke="#3f3f46" stroke-width="1"/>
+    <polygon points="863,110 835,124 835,154 863,140" fill="#1f1f26" stroke="#52525b" stroke-width="1"/>
+  </g>
+</svg>
